@@ -1,3 +1,128 @@
+/************************FONTE**************************/
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  /* font-optical-sizing: auto; */
+  font-style: normal;
+}
 
+.alice-regular {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+/************************FARVEKODER**************************
+#F2EAE4 - lys
+#BFA27E - guld
+#8C0E03 - rød
+#73564C - brun
+#0D0D0D - sort
+/************************SKRIFTTYPER**************************/
 
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #f2eae4;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+}
+
+h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+@media (min-width: 600px) {
+  p {
+    font-family: "Alice", serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 11rem;
+    margin-left: 11rem;
+  }
+}
+
+@media (max-width: 600px) {
+  p {
+    font-family: "Alice", serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+}
+
+/************************GRIDS**************************/
+
+@media (min-width: 600px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grid_oversigt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid_oversigt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/************************SECTIONS**************************/
+
+.menu_oversigt {
+  background-color: #bfa27e;
+  color: #f2eae4;
+}
+
+.menu_s1 {
+  background-color: #f2eae4;
+  color: #0d0d0d;
+  text-align: center;
+}
+
+.menu_s2 {
+  background-color: #73564c;
+  color: #f2eae4;
+  text-align: center;
+}
+
+.menu_s3 {
+  background-color: #f2eae4;
+  color: #0d0d0d;
+  text-align: center;
+}
+
+.menu_s4 {
+  background-color: #73564c;
+  color: #f2eae4;
+  text-align: center;
+}
