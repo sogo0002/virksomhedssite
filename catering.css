@@ -1,0 +1,100 @@
+/********style**********/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+/************************FONTE**************************/
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  /* font-optical-sizing: auto; */
+  font-style: normal;
+}
+
+.alice-regular {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/************************FARVEKODER**************************
+#F2EAE4 - lys
+#BFA27E - guld
+#8C0E03 - rød
+#73564C - brun
+#0D0D0D - sort
+/************************SKRIFTTYPER**************************/
+
+h1 {
+  font-family: Playfair Display, serif;
+  font-weight: bold;
+  color: #f2eae4;
+}
+
+h2 {
+  font-family: Playfair Display, serif;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: Playfair Display, serif;
+  font-weight: lighter;
+}
+
+h4 {
+  font-family: Playfair Display, serif;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+/******catering_oversigt*******/
+
+.catering_oversigt {
+  background-color: #f2eae4;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.catering_oversigt div {
+  background-color: #73564c;
+  padding: 4rem;
+}
+
+.catering_oversigt p {
+  color: #f2eae4;
+}
+.catering_oversigt h2 {
+  color: #f2eae4;
+}
+
+@media (min-width: 600px) {
+  p {
+    font-family: "Alice", serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*margin-right: 11rem;
+    margin-left: 11rem;*/
+  }
+}
+
+@media (max-width: 600px) {
+  p {
+    font-family: "Alice", serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* margin-right: 4rem;
+    margin-left: 4rem;*/
+  }
+}
+
+/*********************************layout********************************/
+
+@media (min-width: 600px) {
+}
+
+@media (max-width: 600px) {
+}
