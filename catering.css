@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  margin: 0 auto;
+}
+
 img {
   width: 100%;
 }
@@ -50,6 +54,28 @@ h4 {
   font-weight: bold;
   margin-bottom: 2px;
 }
+
+/******catering_header*******/
+
+.catering_header {
+  background-image: url(cateringImgs/editedadobe1.webp);
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.catering_header img {
+  width: 100%;
+  height: auto;
+}
+
+.catering_header h1 {
+  font-size: 14dvw;
+}
+
 /******catering_oversigt*******/
 
 .catering_oversigt {

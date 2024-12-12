@@ -1,0 +1,17 @@
+html {
+  /************************FARVEKODER**************************/
+  --primary: #f2eae4;
+  --secondary: #73564c;
+  --tetiary: #8c0e03;
+  --accent: #bfa27e;
+  --dark: #0d0d0d;
+
+  /************************space-størrelser**************************/
+  --space-xxs: 0.3rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  -space-xxl: 6rem;
+}
