@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 0.2rem;
+}
+
 /************************FONTE**************************/
 .playfair-display {
   font-family: "Playfair Display", serif;
@@ -19,20 +32,70 @@
 #0D0D0D - sort
 /************************SKRIFTTYPER**************************/
 
-h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
-  color: #f2eae4;
+@media (min-width: 800px) {
+  p {
+    font-family: "Alice", serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 11rem;
+    margin-left: 11rem;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: #f2eae4;
+    font-size: 1000%;
+  }
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    font-size: 350%;
+  }
+
+  h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    font-size: 200%;
+  }
+
+  .hero_content :hover {
+    color: #8c0e03;
+  }
+
+  a:hover {
+    color: #73564c;
+  }
 }
 
-h2 {
-  font-family: "Playfair Display", serif;
-  font-weight: lighter;
-}
+@media (max-width: 800px) {
+  p {
+    font-family: "Alice", serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
 
-h3 {
-  font-family: "Playfair Display", serif;
-  font-weight: lighter;
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: #f2eae4;
+    font-size: 400%;
+  }
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    font-size: 250%;
+  }
+
+  h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    font-size: 150%;
+  }
 }
 
 h4 {
@@ -41,24 +104,13 @@ h4 {
   margin-bottom: 2px;
 }
 
-@media (min-width: 600px) {
-  p {
-    font-family: "Alice", serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 11rem;
-    margin-left: 11rem;
-  }
+a {
+  color: #f2eae4;
+  text-decoration: none;
 }
 
-@media (max-width: 600px) {
-  p {
-    font-family: "Alice", serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 4rem;
-    margin-left: 4rem;
-  }
+div {
+  padding: 0.5rem;
 }
 
 /************************GRIDS**************************/
@@ -98,31 +150,62 @@ h4 {
 
 /************************SECTIONS**************************/
 
-.menu_oversigt {
+#menu_oversigt {
   background-color: #bfa27e;
   color: #f2eae4;
 }
 
-.menu_s1 {
+#menu_s1 {
   background-color: #f2eae4;
   color: #0d0d0d;
   text-align: center;
 }
 
-.menu_s2 {
+#menu_s2 {
   background-color: #73564c;
   color: #f2eae4;
   text-align: center;
 }
 
-.menu_s3 {
+#menu_s3 {
   background-color: #f2eae4;
   color: #0d0d0d;
   text-align: center;
 }
 
-.menu_s4 {
+#menu_s4 {
   background-color: #73564c;
   color: #f2eae4;
   text-align: center;
 }
+
+/************************HERO**************************/
+
+@media (max-width: 800px) {
+  .menuheader {
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    object-fit: cover;
+  }
+  .hero_content {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+  }
+}
+@media (min-width: 800px) {
+  .hero_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+  }
+}
+
+/************************EINFSONGF**************************/
