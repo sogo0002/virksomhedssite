@@ -58,8 +58,9 @@ h4 {
 /******catering_header*******/
 
 .catering_header {
-  background-image: url(cateringImgs/editedadobe1.webp);
+  background-image: url(cateringImgs/wideShotedited.webp);
   background-size: cover;
+  background-position: center;
   height: 85vh;
   display: flex;
   justify-content: center;
@@ -123,4 +124,7 @@ h4 {
 }
 
 @media (max-width: 600px) {
+  .catering_oversigt div {
+    padding: 1rem;
+  }
 }

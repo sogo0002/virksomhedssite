@@ -42,15 +42,17 @@ footer {
 }
 
 #footer-oversigt {
+  display: flex;
   margin: 0 auto;
   margin-top: 2rem;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 #footer-oversigt div {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
   width: 100%;
 }
 
@@ -122,5 +124,9 @@ footer {
   .form-container button {
     display: flex;
     justify-content: center;
+  }
+
+  #footer-oversigt {
+    display: block;
   }
 }
