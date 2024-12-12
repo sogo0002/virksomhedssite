@@ -46,12 +46,10 @@ footer {
   margin: 0 auto;
   margin-top: 2rem;
   justify-content: space-between;
-  align-items: stretch;
 }
 
 #footer-oversigt div {
-  display: flex;
-  flex-direction: column;
+  flex: 1;
   text-align: center;
   width: 100%;
 }
@@ -95,6 +93,14 @@ footer {
   padding: 1.5rem;
   border: 3px solid #8c0e03;
 }
+/*******svg/logo********/
+#logoBg {
+  background-image: url(logo\ ambesaden\ bage-01.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /*********************************layout********************************/
 
 @media (min-width: 600px) {
@@ -128,5 +134,17 @@ footer {
 
   #footer-oversigt {
     display: block;
+  }
+
+  #footer-oversigt div {
+    height: 100%;
+    margin-bottom: 1rem;
+  }
+
+  #logoBg {
+    width: 100%;
+    padding-top: 50%;
+    margin: auto;
+    box-sizing: border-box;
   }
 }

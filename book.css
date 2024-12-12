@@ -1,0 +1,155 @@
+/********style**********/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+/************************FONTE**************************/
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  /* font-optical-sizing: auto; */
+  font-style: normal;
+}
+
+.alice-regular {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/************************FARVEKODER**************************
+#F2EAE4 - lys
+#BFA27E - guld
+#8C0E03 - rød
+#73564C - brun
+#0D0D0D - sort
+/************************SKRIFTTYPER**************************/
+
+h1 {
+  font-family: Playfair Display, serif;
+  font-weight: bold;
+  color: #f2eae4;
+}
+
+h2 {
+  font-family: Playfair Display, serif;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: Playfair Display, serif;
+  font-weight: lighter;
+}
+
+h4 {
+  font-family: Playfair Display, serif;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+/******book_header*******/
+
+.book_header {
+  background-image: url(cateringImgs/wideShotedited.webp);
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.book_header img {
+  width: 100%;
+  height: auto;
+}
+
+.book_header h1 {
+  font-size: 14dvw;
+}
+
+/******book_oversigt*******/
+
+.book_oversigt {
+  background-color: #f2eae4;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 0;
+  border: 1dvw solid #bfa27e;
+}
+
+.book_oversigt div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.book_oversigt p {
+  color: #f2eae4;
+}
+.book_oversigt h2 {
+  font-weight: bolder;
+  color: #73564c;
+}
+
+/******svg(logo)******/
+#logoDiv {
+  display: flex;
+  justify-content: center;
+  background-image: url(logo\ ambesaden\ bage-01.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25%;
+}
+
+/********specielle div********/
+#kalendar_div {
+  height: 100%;
+  background-color: #f2eae4;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 0;
+  border: 0.5dvw solid #bfa27e;
+}
+
+@media (min-width: 600px) {
+  p {
+    font-family: "Alice", serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*margin-right: 11rem;
+    margin-left: 11rem;*/
+  }
+}
+
+@media (max-width: 600px) {
+  p {
+    font-family: "Alice", serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* margin-right: 4rem;
+    margin-left: 4rem;*/
+  }
+}
+
+/*********************************layout********************************/
+
+@media (min-width: 600px) {
+}
+
+@media (max-width: 600px) {
+  .book_oversigt div {
+    padding: 1rem;
+  }
+}
