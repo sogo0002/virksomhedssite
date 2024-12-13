@@ -64,8 +64,12 @@ img {
     color: #8c0e03;
   }
 
-  a:hover {
+  a h2:hover {
     color: #73564c;
+  }
+
+  a:hover {
+    color: #8c0e03;
   }
 }
 
