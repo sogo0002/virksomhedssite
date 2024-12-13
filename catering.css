@@ -42,11 +42,13 @@ h1 {
 h2 {
   font-family: Playfair Display, serif;
   font-weight: lighter;
+  margin-bottom: 1rem;
 }
 
 h3 {
   font-family: Playfair Display, serif;
   font-weight: lighter;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
@@ -61,7 +63,7 @@ h4 {
   background-image: url(cateringImgs/wideShotedited.webp);
   background-size: cover;
   background-position: center;
-  height: 85vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +76,7 @@ h4 {
 }
 
 .catering_header h1 {
-  font-size: 14dvw;
+  font-size: 12dvw;
 }
 
 /******catering_oversigt*******/
@@ -126,5 +128,9 @@ h4 {
 @media (max-width: 600px) {
   .catering_oversigt div {
     padding: 1rem;
+  }
+
+  .catering_header {
+    height: 50vh;
   }
 }

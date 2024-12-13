@@ -42,11 +42,13 @@ h1 {
 h2 {
   font-family: Playfair Display, serif;
   font-weight: lighter;
+  margin-bottom: 1rem;
 }
 
 h3 {
   font-family: Playfair Display, serif;
   font-weight: lighter;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
@@ -55,13 +57,17 @@ h4 {
   margin-bottom: 2px;
 }
 
+p {
+  font-family: "Alice", serif;
+}
+
 /******book_header*******/
 
 .book_header {
-  background-image: url(cateringImgs/wideShotedited.webp);
+  background-image: url(bookImgs/embassadenloft.webp);
   background-size: cover;
   background-position: center;
-  height: 85vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +80,7 @@ h4 {
 }
 
 .book_header h1 {
-  font-size: 14dvw;
+  font-size: 12dvw;
 }
 
 /******book_oversigt*******/
@@ -106,7 +112,7 @@ h4 {
 #logoDiv {
   display: flex;
   justify-content: center;
-  background-image: url(logo\ ambesaden\ bage-01.svg);
+  background-image: url(img/logo-ambesaden-bage-01.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -151,5 +157,9 @@ h4 {
 @media (max-width: 600px) {
   .book_oversigt div {
     padding: 1rem;
+  }
+
+  .book_header {
+    height: 50vh;
   }
 }

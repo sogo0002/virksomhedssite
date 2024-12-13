@@ -91,11 +91,11 @@ footer {
   margin-left: 5rem;
   margin-right: 5rem;
   padding: 1.5rem;
-  border: 3px solid #8c0e03;
+  border: 3px solid #73564c;
 }
 /*******svg/logo********/
 #logoBg {
-  background-image: url(logo\ ambesaden\ bage-01.svg);
+  background-image: url(img/logo-ambesaden-bage-01.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

@@ -13,5 +13,25 @@ html {
   --space-md: 1.5rem;
   --space-lg: 2rem;
   --space-xl: 3rem;
-  -space-xxl: 6rem;
+  --space-xxl: 6rem;
+}
+
+/************************FONTE**************************/
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  /* font-optical-sizing: auto; */
+  font-style: normal;
+}
+
+.alice-regular {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: Playfair Display, serif;
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 12dvw;
 }
