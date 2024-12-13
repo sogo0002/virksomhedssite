@@ -32,6 +32,13 @@ img {
 #0D0D0D - sort
 /************************SKRIFTTYPER**************************/
 
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #f2eae4;
+  font-size: 12dvw;
+}
+
 @media (min-width: 800px) {
   p {
     font-family: "Alice", serif;
@@ -41,35 +48,16 @@ img {
     margin-left: 11rem;
   }
 
-  h1 {
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    color: #f2eae4;
-    font-size: 1000%;
-  }
-
   h2 {
     font-family: "Playfair Display", serif;
     font-weight: lighter;
-    font-size: 350%;
+    font-size: 450%;
   }
 
   h3 {
     font-family: "Playfair Display", serif;
     font-weight: lighter;
     font-size: 200%;
-  }
-
-  .hero_content :hover {
-    color: #8c0e03;
-  }
-
-  a h2:hover {
-    color: #73564c;
-  }
-
-  a:hover {
-    color: #8c0e03;
   }
 }
 
@@ -80,13 +68,6 @@ img {
     margin-bottom: 0px;
     margin-right: 4rem;
     margin-left: 4rem;
-  }
-
-  h1 {
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    color: #f2eae4;
-    font-size: 400%;
   }
 
   h2 {
@@ -113,10 +94,29 @@ a {
   text-decoration: none;
 }
 
+.hero_content :hover {
+  color: #bfa27e;
+}
+
+a h2:hover {
+  color: #73564c;
+}
+
+a:hover {
+  color: #bfa27e;
+}
+
 div {
   padding: 0.5rem;
 }
 
+#burgerid {
+  padding: 0;
+}
+
+#burgerid div {
+  padding: 0;
+}
 /************************GRIDS**************************/
 
 @media (min-width: 600px) {
