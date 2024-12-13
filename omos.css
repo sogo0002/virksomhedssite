@@ -1,0 +1,117 @@
+/********style**********/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+/************************FONTE**************************/
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  /* font-optical-sizing: auto; */
+  font-style: normal;
+}
+
+.alice-regular {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: Playfair Display, serif;
+  font-weight: bold;
+  color: #f2eae4;
+}
+
+h2 {
+  font-family: Playfair Display, serif;
+  font-weight: lighter;
+  color: #f2eae4;
+  text-wrap: pretty;
+}
+
+h3 {
+  font-family: Playfair Display, serif;
+  font-weight: lighter;
+}
+
+h4 {
+  font-family: Playfair Display, serif;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+p {
+  font-family: "Alice", serif;
+  color: #f2eae4;
+  line-height: 200%;
+  text-wrap: pretty;
+}
+
+/******OM OS header*******/
+
+.omos_header {
+  background-image: url(omosImgs/A&K-15.webp);
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.omos_header img {
+  width: 100%;
+  height: auto;
+}
+
+.omos_header h1 {
+  font-size: 14dvw;
+}
+
+/******OM OS main*******/
+.grid1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5%;
+  background-color: #73564c;
+}
+
+@media (min-width: 1100px) {
+  .omos_text {
+    margin-left: 3rem;
+  }
+
+  .omos_text h2 {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 1100px) {
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5%;
+    background-color: #73564c;
+  }
+
+  .omos_text h2 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .omos_text p {
+    margin-bottom: 5rem;
+  }
+
+  .grid1_1 img {
+    margin-top: 3rem;
+  }
+}
