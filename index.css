@@ -74,12 +74,21 @@
   color: #840c00;
 }
 
+.kongeligsvg {
+  padding: 4%;
+}
+
+.svgkonge {
+  width: 45%;
+  margin-inline: auto;
+  display: block;
+}
+
 @media (max-width: 600px) {
   .hofleverendør {
     margin: 0;
     padding: 0;
 
-    height: 60vh;
     background-color: #5c4439;
   }
 
@@ -122,6 +131,17 @@
     grid-row: 1/4;
     grid-column: 1;
   }
+
+  .kongeligsvg {
+    padding: 8%;
+  }
+
+  .svgkonge {
+    width: 90%;
+    margin-inline: auto;
+    display: block;
+    padding: 8%;
+  }
 }
 
 @media (min-width: 600px) {
@@ -129,7 +149,6 @@
     margin: 0;
     padding: 0;
 
-    height: 73vh;
     background-color: #5c4439;
   }
 
@@ -152,5 +171,26 @@
 
   .billed2 {
     display: block;
+  }
+
+  .navn {
+    font-size: 10vw;
+  }
+  .navn2 {
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+  }
+
+  .kongeligsvg {
+    padding: 4%;
+  }
+
+  .svgkonge {
+    width: 80%;
+    margin-inline: auto;
+    display: block;
+    padding: 6%;
   }
 }
