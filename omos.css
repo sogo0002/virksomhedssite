@@ -61,7 +61,7 @@ p {
 .omos_header {
   background-image: url(omosImgs/A&K-15.webp);
   background-size: cover;
-  height: 85vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +74,7 @@ p {
 }
 
 .omos_header h1 {
-  font-size: 14dvw;
+  font-size: 12dvw;
 }
 
 /******OM OS main*******/
