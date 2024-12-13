@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="mutual.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="mutual.css">
+    <link rel="stylesheet" href="footer.css">
 
 </head>
 
@@ -15,10 +17,11 @@
 
     <header>
         <nav>
+            <a class="logo_mobil" href="index.html"><img src="img/logo-ambesaden-01.svg" alt="Logo"></a>
             <ul class="menu">
                 <li><a href="menu.html">MENU</a></li>
                 <li><a href="catering.html">CATERING</a></li>
-                <li class="logo"><a href="index.html"><img src="logo ambesaden-01.svg" alt="Logo"></a></li>
+                <li class="logo"><a href="index.html"><img src="img/logo-ambesaden-01.svg" alt="Logo"></a></li>
                 <li><a href="omos.html">OM OS</a></li>
                 <li><a href="book.html">BOOK</a></li>
             </ul>
@@ -57,9 +60,9 @@
 
     <section class="hofleverendør">
         <div class="billed_container">
-            <img src="hero.webp" alt="billid1">
-            <img class="billed2" src="hero.webp" alt="billid2">
-            <img class="billede3" src="hero.webp" alt="billid3">
+            <img src="index1.webp" alt="billid1">
+            <img class="billed2" src="index2.webp" alt="billid2">
+            <img class="billede3" src="index3.webp" alt="billid3">
         </div>
     </section>
 
@@ -73,8 +76,64 @@
 
     <footer>
 
+        <section id="nyhedsbrev-oversigt">
+            <div>
+                <h3>Nyhedsbrev</h3>
+
+                <p>Tilmeld dig for at modtage information om dage med aftenåbent, og særlige arrangementer</p>
+            </div>
+
+
+            <form class="form-container" onsubmit="return false;">
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="tilføj mail">
+                </div>
+                <div>
+                    <label for="navn">Navn: </label>
+                    <input type="text" id="navn" name="navn" placeholder="tilføj navn">
+                </div>
+                <button type="submit">TILMELD</button>
+            </form>
+
+        </section>
+
+        <div id="footer-oversigt" class="grid_1-1-1">
+            <div>
+                <h3>Kontakt</h3>
+
+                <p>Ambassaden & Konsulatet</p>
+                <p>Dag Hammarskjölds Allé 7</p>
+                <p>2100 København Ø</p>
+                <p> </p>
+                <p>Tlf.: + 45 33 13 91 94</p>
+                <p>Email: booking@restaurantambassaden.dk</p>
+            </div>
+
+            <div>
+
+            </div>
+
+            <div>
+                <h3>Abningstider</h3>
+                <ul>
+
+                    <li>Mandag 11.30-16.00</li>
+                    <li>Tirsdag 11.30-16.00</li>
+                    <li>Onsdag 11.30-16.00</li>
+                    <li>Torsdag 11.30-16.00</li>
+                    <li>Fredag 11.30-16.00</li>
+                    <li>Lørdag 11.30-16.00</li>
+                    <li>Søndag Lukket</li>
+                </ul>
+
+            </div>
+        </div>
 
     </footer>
+
+
+
 
 
 
