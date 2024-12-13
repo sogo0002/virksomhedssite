@@ -115,3 +115,9 @@ p {
     margin-top: 3rem;
   }
 }
+
+#logo_lottie {
+  justify-content: center;
+  place-self: center;
+  width: 100%;
+}

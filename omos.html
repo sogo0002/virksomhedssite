@@ -68,39 +68,47 @@
             </div>
 
 
-            <form class="form-container" onsubmit="return false;">
+            <form id="userform" class="form-container" novalidate>
                 <div>
                     <label for="email">Email: </label>
-                    <input type="email" id="email" name="email" placeholder="tilføj mail">
+                    <input type="email" id="email" name="email" placeholder="Tilføj mail" required>
                 </div>
                 <div>
-                    <label for="navn">Navn: </label>
-                    <input type="text" id="navn" name="navn" placeholder="tilføj navn">
+                    <label for="name">Navn: </label>
+                    <input type="text" id="name" name="navn" placeholder="Tilføj navn" required>
                 </div>
-                <button type="submit">TILMELD</button>
+                <button type="button" id="saveButton">TILMELD</button>
             </form>
+
+            <p id="savedData"></p>
 
         </section>
 
         <div id="footer-oversigt" class="grid_1-1-1">
             <div>
                 <h3>Kontakt</h3>
+                <ul>
 
-                <p>Ambassaden & Konsulatet</p>
-                <p>Dag Hammarskjölds Allé 7</p>
-                <p>2100 København Ø</p>
-                <p> </p>
-                <p>Tlf.: + 45 33 13 91 94</p>
-                <p>Email: booking@restaurantambassaden.dk</p>
+                    <li>Ambassaden & Konsulatet</li>
+                    <li>Dag Hammarskjölds Allé 7</li>
+                    <li>2100 København Ø</li>
+                    <li>&#8203;</li>
+                    <li>&#8203;</li>
+                    <li>Tlf.: + 45 33 13 91 94</li>
+                    <li>Email: booking@restaurantambassaden.dk</li>
+                </ul>
             </div>
 
-            <div>
+            <div id="logo_lottie">
                 <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
-                    type="module"></script>
+                    type="module">
+                    </script>
                 <dotlottie-player src="https://lottie.host/c0a8cfee-a10c-4182-af76-c79edfe23e7d/nKRkd0sz4C.lottie"
-                    background="transparent" speed="1" style="width: 300px; height: 300px" loop
+                    background="transparent" speed="1" style="width: 100%; height: 300px" loop
                     autoplay></dotlottie-player>
             </div>
+
+
 
             <div>
                 <h3>Abningstider</h3>
