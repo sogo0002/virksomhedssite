@@ -94,11 +94,10 @@ footer {
   border: 3px solid #73564c;
 }
 /*******svg/logo********/
-#logoBg {
-  background-image: url(img/logo-ambesaden-bage-01.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+#logo_lottie {
+  justify-content: center;
+  place-self: center;
+  width: 100%;
 }
 
 /*********************************layout********************************/
