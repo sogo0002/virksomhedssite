@@ -28,13 +28,13 @@ img {
 h1 {
   font-family: Playfair Display, serif;
   font-weight: bold;
-  color: #f2eae4;
+  color: var(--primary);
 }
 
 h2 {
   font-family: Playfair Display, serif;
   font-weight: lighter;
-  color: #f2eae4;
+  color: var(--primary);
   text-wrap: pretty;
 }
 
@@ -51,7 +51,7 @@ h4 {
 
 p {
   font-family: "Alice", serif;
-  color: #f2eae4;
+  color: var(--primary);
   line-height: 200%;
   text-wrap: pretty;
 }
@@ -98,7 +98,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 5%;
-  background-color: #73564c;
+  background-color: var(--secondary);
 }
 
 @media (min-width: 1100px) {
@@ -115,7 +115,7 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     padding: 5%;
-    background-color: #73564c;
+    background-color: var(--secondary);
   }
 
   .omos_text h2 {
