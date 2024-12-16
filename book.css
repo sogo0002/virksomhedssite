@@ -135,6 +135,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   height: 25%;
+  margin-bottom: 0.5rem;
 }
 
 #logoDiv h2 {
@@ -143,12 +144,125 @@ p {
 
 /********specielle div********/
 #kalendar_div {
+  display: flex;
+  justify-content: center;
   height: 100%;
   background-color: #f2eae4;
   margin: 0 auto;
   padding: 20px;
   margin-bottom: 0;
   border: 0.5dvw solid #bfa27e;
+}
+
+/********popup_div1********/
+#openPopup {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  background-color: #8c0e03;
+  font-family: Playfair Display;
+  color: #f2eae4;
+  border: 1px solid #f2eae4;
+  border-radius: 29px;
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#kalendar_div .popup {
+  display: none;
+  width: 100%;
+  max-height: 350px;
+  background-color: rgb(255, 255, 255);
+  border: 0.4dvw solid silver;
+  box-shadow: 10px 5px 0.5px 1px rgb(0, 0, 0, 0.5);
+  justify-content: center;
+  align-content: center;
+  z-index: 1000;
+}
+
+#kalendar_div .exitButton {
+  cursor: pointer;
+  position: sticky;
+  top: 0px;
+  left: 1342px;
+  font-size: 40px;
+}
+
+#kalendar_div .popup-content {
+  display: flex;
+  padding-bottom: 46px;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.popupForm {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 50%;
+}
+
+.popupForm button {
+  width: 113px;
+  background-color: #bfa27e;
+  font-family: Playfair Display;
+  color: #f2eae4;
+  border: 1px solid #f2eae4;
+  border-radius: 29px;
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.popupForm button:hover {
+  background-color: #eb857c;
+}
+
+/*******input-felt********/
+.popupForm input {
+  width: 100%;
+  font-family: Playfair Display;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 3px solid black;
+}
+
+.popupForm .divpop1 {
+  width: 100%;
+}
+
+/********popup_div2********/
+
+#kalendar_div #popup2 {
+  display: none;
+  width: 100%;
+  max-height: 350px;
+  background-color: rgb(255, 255, 255);
+  border: 0.5dvw solid silver;
+  box-shadow: 10px 5px 0.5px 1px rgb(0, 0, 0, 0.3);
+  justify-content: center;
+  align-content: center;
+  z-index: 1000;
+}
+
+#kalendar_div #nextButton2 {
+  background-color: #8c0e03;
+  font-family: Playfair Display;
+  border-radius: 29px;
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 @media (min-width: 600px) {
@@ -173,7 +287,7 @@ p {
 
 /*********************************layout********************************/
 
-@media (min-width: 600px) {
+@media (min-width: 765px) {
 }
 
 @media (max-width: 600px) {
@@ -183,5 +297,9 @@ p {
 
   .book_header {
     height: 50vh;
+  }
+
+  .popupForm {
+    width: 100%;
   }
 }

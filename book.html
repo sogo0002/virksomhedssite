@@ -53,25 +53,45 @@
             </div>
             <div id="kalendar_div">
 
-                <button id="openPopup"> Book Her!</button>
+                <button id="openPopup"> BOOK HER!</button>
 
-                <div class="popup">
+                <div id="popup1" class="popup">
                     <div class="popup-content">
-                        <span id="closePopup">&times;</span>
-                        <form class="popupForm">
+                        <div id="closePopup" class="exitButton">&times;</div>
+                        <form class="popupForm" id="popupForm1">
+                            <div class="divpop1">
+                                <label for="nameBook">Navn: </label>
+                                <input type="text" id="nameBook" name="navn" placeholder="Tilføj navn" required>
+                            </div>
+                            <div class="divpop1">
+                                <label for="emailBook">Email: </label>
+                                <input type="email" id="emailBook" name="email" placeholder="Tilføj mail" required>
+                            </div>
 
+                            <button type="button" id="nextButton1">VIDERE</button>
+                        </form>
+                        <p id="savedDatamsg"></p>
+
+                    </div>
+
+                </div>
+                <div id="popup2" class="popup">
+                    <div class="popup-content">
+                        <div id="closePopup2" class="exitButton">&times;</div>
+                        <form class="popupForm" id="popupForm2">
+                            <div class="divpop1">
+                                <label for="calendar">Vælge Dato:</label>
+                                <input type="date" id="calendar" name="calendar" min="2024-01-01" max="2024-12-31"
+                                    value="2024-06-15">
+
+                            </div>
+
+                            <button type="button" id="nextButton2">GEM</button>
                         </form>
 
                     </div>
 
                 </div>
-                <!-- <form action=" action.php">
-                    <label for="typeOfBook">Vælge Type</label>
-                    <select id="typeOfBook">
-                        <option value="Almindelig Booking">Almindelig Booking</option>
-                    </select>
-                </form>-->
-
             </div>
         </section>
     </main>
@@ -141,7 +161,7 @@
         </div>
     </footer>
 
-
+    <script src="book.js"></script>
     <script src="catering.js"></script>
     <script src="header.js"></script>
 </body>
