@@ -1,3 +1,43 @@
+html {
+  /************************FARVEKODER**************************/
+  --primary: #f2eae4;
+  --secondary: #73564c;
+  --tetiary: #8c0e03;
+  --accent: #bfa27e;
+  --dark: #0d0d0d;
+
+  /************************space-størrelser**************************/
+  --space-xxs: 0.3rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-xxl: 6rem;
+}
+
+.playfair-display {
+  font-family: Playfair Display, serif;
+  /* font-optical-sizing: auto; */
+  font-style: normal;
+}
+
+.alice-regular {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+}
+
 .hero {
   margin: 0;
   padding: 0;
@@ -50,11 +90,11 @@
 }
 
 .hero-button:hover {
-  background: #8c0e03;
+  background: var(--tetiary);
 }
 
 .navn {
-  background-color: #fff4eb;
+  background-color: var(--primary);
   padding: 4rem;
 }
 
@@ -63,15 +103,15 @@
 }
 
 .title {
-  font-size: 8vw;
+  font-size: 4.5vw;
   margin: 0;
-  color: #840c00;
+  color: var(--tetiary);
 }
 
 .ampersand {
-  font-size: 15vw;
+  font-size: 8vw;
   line-height: 1;
-  color: #840c00;
+  color: var(--tetiary);
 }
 
 .kongeligsvg {
@@ -89,7 +129,7 @@
     margin: 0;
     padding: 0;
 
-    background-color: #5c4439;
+    background-color: var(--secondary);
   }
 
   .billed_container {
@@ -149,7 +189,7 @@
     margin: 0;
     padding: 0;
 
-    background-color: #5c4439;
+    background-color: var(--secondary);
   }
 
   .billed_container {
@@ -181,6 +221,7 @@
     display: flex;
     align-items: baseline;
     gap: 1rem;
+    justify-content: center;
   }
 
   .kongeligsvg {
