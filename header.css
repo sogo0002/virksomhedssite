@@ -31,7 +31,7 @@ nav ul li.logo img {
 
 nav ul li a {
   text-decoration: none;
-  color: antiquewhite;
+  color: #f2eae4;
   font-size: 2.2rem;
 }
 
@@ -56,6 +56,11 @@ nav ul li a {
 .logo_mobil {
   display: none;
 }
+
+header a:hover {
+  color: #8c0e03;
+}
+
 @media screen and (max-width: 700px) {
   nav {
     display: flex;
