@@ -130,7 +130,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 3rem;
-    margin-left: 6rem;
+    margin-left: 2rem;
   }
 }
 
