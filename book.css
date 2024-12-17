@@ -161,18 +161,26 @@ p {
 #openPopup {
   display: flex;
   justify-content: center;
-  width: 200px;
+  align-items: center;
+  width: 50%;
+  height: 19dvh;
   background-color: #8c0e03;
   font-family: Playfair Display;
+  font-size: 2.5dvw;
   color: #f2eae4;
   border: 1px solid #f2eae4;
-  border-radius: 29px;
+  border-radius: 260dvh;
   align-self: center;
   text-align: center;
   padding: 10px;
   margin: 0 auto;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   cursor: pointer;
+}
+
+#openPopup:hover {
+  background-color: #eb857c;
 }
 
 #kalendar_div .popup {
@@ -298,11 +306,21 @@ p {
     padding: 1rem;
   }
 
-  .book_header {
+  /* .book_header {
     height: 50vh;
-  }
+  }*/
 
   .popupForm {
     width: 100%;
+  }
+
+  #openPopup {
+    width: 100%;
+    height: 14dvh;
+    font-size: 4dvw;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
   }
 }
