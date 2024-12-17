@@ -38,6 +38,9 @@ h1 {
   font-weight: bold;
   color: #f2eae4;
   font-size: 12dvw;
+  word-wrap: normal;
+  overflow-wrap: normal;
+  white-space: nowrap;
 }
 
 h2 {
