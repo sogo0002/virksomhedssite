@@ -281,6 +281,8 @@ p {
     font-family: Alice;
     margin-top: 0px;
     margin-bottom: 0px;
+    line-height: 200%;
+    text-wrap: pretty;
     /*margin-right: 11rem;
     margin-left: 11rem;*/
   }
