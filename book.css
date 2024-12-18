@@ -291,6 +291,8 @@ p {
     font-family: "Alice", serif;
     margin-top: 0px;
     margin-bottom: 0px;
+    line-height: 200%;
+    text-wrap: pretty;
     /* margin-right: 4rem;
     margin-left: 4rem;*/
   }

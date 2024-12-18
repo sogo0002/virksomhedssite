@@ -43,6 +43,7 @@ h2 {
   font-family: Playfair Display, serif;
   font-weight: lighter;
   margin-bottom: 1rem;
+  text-wrap: pretty;
 }
 
 h3 {
@@ -133,6 +134,8 @@ h1 {
     font-family: "Alice", serif;
     margin-top: 0px;
     margin-bottom: 0px;
+    line-height: 200%;
+    text-wrap: pretty;
     /* margin-right: 4rem;
     margin-left: 4rem;*/
   }
